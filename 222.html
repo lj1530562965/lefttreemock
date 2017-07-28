@@ -1,0 +1,60 @@
+<ul style="padding-left: 0;" data-bind="foreach: datas">
+
+    <li class="parent_li">
+
+        <span title="Collapse this branch"><i class="fa fa-minus-square"></i></span> <a href="" data-bind="text:name">Storage center</a>
+
+        <ul data-bind="foreach: childMenus">
+            <li class="parent_li">
+
+                <span title="Collapse this branch"><i class="fa fa-plus-square"></i> </span> <a data-bind="text:name" href="testko.html" target="BoardRight">存储池1</a>
+
+                <ul data-bind="foreach: childMenus">
+
+                    <li style="display: block;" class="parent_li">
+
+                        <span title="Collapse this branch"><i class="fa fa-plus-square"></i> </span> <a href="" data-bind="text:name">11</a>
+
+                        <ul data-bind="foreach: childMenus"></ul>
+
+                    </li>
+
+
+
+
+                    <li style="display: block;" class="parent_li">
+
+                        <span title="Collapse this branch"><i class="fa fa-plus-square"></i> </span> <a href="" data-bind="text:name">12</a>
+
+                        <ul data-bind="foreach: childMenus">
+
+                            <li style="display: block;">
+
+                                <span><i class=""></i></span> <a href="" data-bind="text:name">121</a>
+
+                            </li>
+
+
+
+
+                            <li style="display: block;">
+
+                                <span><i class=""></i></span> <a href="" data-bind="text:name">122</a>
+
+                            </li>
+
+
+                        </ul>
+
+                    </li>
+
+
+                </ul>
+
+            </li>
+        </ul>
+
+    </li>
+
+
+</ul>
